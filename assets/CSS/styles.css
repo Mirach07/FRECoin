@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+
+    width: 100%;
+    max-width: 1920px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #fff;
+
+    background: url(../images/HellYeahSkull.png);
+    background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+
+
+/* header */
+.header{
+    width: 100%;
+    max-width: 1920px;
+    height: 75px;
+
+    text-align: center;
+}
+
+
+
+/* main */
+main{
+    width: 100%;
+    max-width: 1920px;
+}
+
+.main__clicker{
+    font-size: 35px;
+
+    background-color: rgba(0, 0, 0, 0.3);
+    
+    border-radius: 10%;
+
+    margin: 10vh auto;
+
+    width: 100%;
+    max-width: 450px;
+    aspect-ratio: 1 / 1;
+    text-align: center;
+
+    user-select: none;
+
+    grid-column-start: 2;
+}
+
+.clicker__image{
+    margin-top: 5%;
+
+    border-radius: 50%;
+
+    width: 100%;
+    max-width: 300px;
+    aspect-ratio: 1 / 1;
+    scale: 1;
+}
+
+.main__clickerWithUpgrades{
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.main__upgradesText,
+.main__skinsText{
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+    text-align: center;
+    text-shadow: 1px 1px #000;
+}
+
+.main__upgrades{
+    margin: 0 auto;
+
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    max-height: max-content;
+
+    text-align: center;
+
+    /* display: flex;
+
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-around; */
+}
+
+.upgrades__clickMultiplier,
+.upgrades__autoClicker,
+.upgrades__energy{
+    font-size: 16px;
+
+    margin: 20px auto;
+    padding: 10px;
+
+    width: 100%;
+    max-width: 200px;
+    aspect-ratio: 1 / 1;
+
+    background-color: rgba(0, 0, 0, 0.3);
+
+    border-radius: 10%;
+
+    text-align: center;
+
+    transition: all 0.3s linear;
+}
+
+.upgrades__clickMultiplier:hover,
+.upgrades__autoClicker:hover,
+.upgrades__energy:hover{
+    font-size: 18px;
+}
+
+.main__skins{
+    display: flex;
+
+    justify-content: center;
+}
+
+.skins__ksisImage,
+.skins__freImage,
+.skins__iefImage{
+    margin-top: 5%;
+
+    border-radius: 50%;
+
+    width: 100%;
+    max-width: 200px;
+    aspect-ratio: 1 / 1;
+    scale: 1;
+}
+
+.upgrade__button,
+.buy__button{
+    user-select: none;
+
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+/* skins */
+.skins__ksis,
+.skins__fre,
+.skins__ief{
+    margin: 0 20px;
+
+    width: 100%;
+    max-width: 300px;
+    aspect-ratio: 3 / 4;
+
+    text-align: center;
+
+    background-color: rgba(0, 0, 0, 0.3);
+
+    border-radius: 0 20% 0 20%;
+
+    transition: all 0.3s linear;
+}
+
+.skins__ksis:hover,
+.skins__fre:hover,
+.skins__ief:hover{
+    font-size: 20px;
+}

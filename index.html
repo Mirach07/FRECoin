@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/CSS/styles.css">
+    <title>ФРЭ clicker</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <p>Some goofy ahh header text here</p>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="main__inner">
+                <div class="main__clickerWithUpgrades">
+
+                    <div class="main__clicker">
+
+                        <img class="clicker__image" id="clicker__image"
+                        src="assets/images/ФРЭ.PNG" alt="ФАКУЛЬТЕТ РЕАЛЬНОГО ЭКШЕНА">
+
+                        <p>
+                            ФРЭшки: 
+                            <b class="scoreCounter" id="scoreCounter">0</b>
+                        </p>
+
+                        <p>
+                            Energy:
+                            <b id="energyCounter">500</b>
+                        </p>
+
+                    </div>
+
+
+                    <div class="main__upgrades">
+                        <h2 class="main__upgradesText">UPGRADES</h2>
+
+                        <div class="upgrades__clickMultiplier" id="upgrades__clickMultiplier">
+                            <h2>Click multiplier</h2>
+                            <p>
+                                Points per click:
+                                <b id="clickMultiplier">1</b>
+                            </p>
+                            <p>
+                                <b id="clickMultiplierUpgradeCost">50</b>
+                            </p>
+                            <p class="upgrade__button" id="clickMultiplier__upgrade">upgrade</p>
+                        </div>
+
+                        <div class="upgrades__autoClicker" id="upgrades__autoClicker">
+                            <h2>Autoclicker</h2>
+                            <p>
+                                Points per second:
+                                <b id="pointsPerSecond">0</b>
+                            </p>
+                            <p>
+                                <b id="pointsPerSecondUpgradeCost">100</b>
+                            </p>
+                            <p class="upgrade__button" id="pointsPerSecond__upgrade">upgrade</p>
+                        </div>
+
+                        <div class="upgrades__energy" id="upgrades__energy">
+                            <h2>Max energy</h2>
+                            <p>
+                                Max energy:
+                                <b id="maxEnergy">500</b>
+                            </p>
+                            <p>
+                                <b id="maxEnergyUpgradeCost">100</b>
+                            </p>
+                            <p class="upgrade__button" id="maxEnergy__upgrade">upgrade</p>
+                        </div>
+                    </div>
+
+                </div>
+            
+
+                <h2 class="main__skinsText">SKINS</h2>
+                
+                <div class="main__skins">
+
+                    <div class="skins__fre" id="skins__fre">
+                        <h2>ФРЭ</h2>
+                        <img class="skins__freImage" id="skins__fre"
+                        src="assets/images/ФРЭ.PNG" alt="FRE">
+                        <p>Стандартный скин</p>
+                        <p class="buy__button"id="buy__buttonFre">Выбрать</p>
+                    </div>
+
+                    <div class="skins__ksis" id="skins__ksis">
+                        <h2>КСИС</h2>
+                        <img class="skins__ksisImage" id="skins__ksis"
+                        src="assets/images/ksis.png" alt="KSIS">
+                        <p>1000 ФРЭчков</p>
+                        <p class="buy__button" id="buy__buttonKsis">Купить</p>
+                    </div>
+
+                    <div class="skins__ief" id="skins__ief">
+                        <h2>ИЭФ</h2>
+                        <img class="skins__iefImage" id="skins__ief"
+                        src="assets/images/ief.png" alt="IEF">
+                        <p>1000 ФРЭчков</p>
+                        <p class="buy__button" id="buy__buttonIef">Купить</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <script src="assets/script.js"></script>
+</body>
+</html>
